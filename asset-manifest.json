@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/Loukik_portfolio/static/css/main.825a9e57.css",
-    "main.js": "/Loukik_portfolio/static/js/main.7222c9a7.js",
+    "main.js": "/Loukik_portfolio/static/js/main.16dcb8f1.js",
     "static/js/415.4d6acbeb.chunk.js": "/Loukik_portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Loukik_portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/anime.png": "/Loukik_portfolio/static/media/anime.680eab04d55232023b31.png",
     "static/media/tesla.png": "/Loukik_portfolio/static/media/tesla.c696c3b349efd8afacbb.png",
     "static/media/leaf.png": "/Loukik_portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/emotion.png": "/Loukik_portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/suicide.png": "/Loukik_portfolio/static/media/suicide.9c86cd7138a398c45fa5.png",
     "static/media/mnist.png": "/Loukik_portfolio/static/media/mnist.0d2173c5a8ef1d7c1931.png",
-    "static/media/LoukikNaik_resume.pdf": "/Loukik_portfolio/static/media/LoukikNaik_resume.1ee17f6bcbe5a64eb6b7.pdf",
+    "static/media/LoukikNaik_resume.pdf": "/Loukik_portfolio/static/media/LoukikNaik_resume.4c477afd84adf6973744.pdf",
     "static/media/codeEditor.png": "/Loukik_portfolio/static/media/codeEditor.1b585492490c8c1cace9.png",
     "static/media/ppg.png": "/Loukik_portfolio/static/media/ppg.cbe07e37c680023e9da2.png",
     "static/media/blog.png": "/Loukik_portfolio/static/media/blog.fb8ab7f271a937d5fc01.png",
@@ -21,12 +22,12 @@
     "static/media/pre.svg": "/Loukik_portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Loukik_portfolio/index.html",
     "main.825a9e57.css.map": "/Loukik_portfolio/static/css/main.825a9e57.css.map",
-    "main.7222c9a7.js.map": "/Loukik_portfolio/static/js/main.7222c9a7.js.map",
+    "main.16dcb8f1.js.map": "/Loukik_portfolio/static/js/main.16dcb8f1.js.map",
     "415.4d6acbeb.chunk.js.map": "/Loukik_portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Loukik_portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.825a9e57.css",
-    "static/js/main.7222c9a7.js"
+    "static/js/main.16dcb8f1.js"
   ]
 }
