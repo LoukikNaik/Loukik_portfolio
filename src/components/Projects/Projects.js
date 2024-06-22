@@ -55,7 +55,7 @@ The server parses the incoming requests and, based on the specifications of Trit
             <ProjectCard
               imgPath="null"
               isBlog={true}
-              title="Performance Analysis of Co-ordinate Descent vs Logistic Regression"
+              title="Performance Analysis of Co-ordinate Descent"
               description="In this analysis study I performed a brief comparison of the performance of Logistic regression and 3 different varieties of co-ordinate descent i.e. Random Co-ordinate Descent, Iterative Co-ordinate Descent and Gradient based Co-ordinate Descent on the wine data set from sk-learn. <br/>
 Although, the co-ordinate descent failed to achieve log-loss values comparable to logistic regression, they converged faster and had reasonable loss and accuracy values to be considered for practical use."              
               ghLink="https://drive.google.com/file/d/1Pn1khXBtFjpyHkz09qiY5CRZBfTksCfB/view?usp=sharing"
