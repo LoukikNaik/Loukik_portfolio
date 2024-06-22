@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Loukik_portfolio/static/css/main.825a9e57.css",
-    "main.js": "/Loukik_portfolio/static/js/main.708ce4a0.js",
+    "main.js": "/Loukik_portfolio/static/js/main.090cb8ef.js",
     "static/js/415.4d6acbeb.chunk.js": "/Loukik_portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Loukik_portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/anime.png": "/Loukik_portfolio/static/media/anime.680eab04d55232023b31.png",
@@ -22,12 +22,12 @@
     "static/media/pre.svg": "/Loukik_portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Loukik_portfolio/index.html",
     "main.825a9e57.css.map": "/Loukik_portfolio/static/css/main.825a9e57.css.map",
-    "main.708ce4a0.js.map": "/Loukik_portfolio/static/js/main.708ce4a0.js.map",
+    "main.090cb8ef.js.map": "/Loukik_portfolio/static/js/main.090cb8ef.js.map",
     "415.4d6acbeb.chunk.js.map": "/Loukik_portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Loukik_portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.825a9e57.css",
-    "static/js/main.708ce4a0.js"
+    "static/js/main.090cb8ef.js"
   ]
 }
