@@ -23,12 +23,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build the project
-        env:
-          CI: false  # Set CI to false to treat warnings as non-errors
-        run: npm run build
+    #   - name: Build the project
+    #     env:
+    #       CI: false  # Set CI to false to treat warnings as non-errors
+    #     run: npm run build
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages  
         run: npm run deploy
         env:
+          CI: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the GitHub token for authentication
