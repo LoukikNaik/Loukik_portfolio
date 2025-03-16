@@ -1,40 +1,35 @@
-# .github/workflows/deploy.yml
-
 name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Change this to your default branch if it's not 'main'
+      - main
+
+permissions:
+  contents: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - name: Install Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: '16'  # Specify the Node.js version you want to use
+          node-version: 18
+          cache: npm
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm install
 
-    #   - name: Build the project
-    #     env:
-    #       CI: false  # Set CI to false to treat warnings as non-errors
-    #     run: npm run build
-      - name: Configure Git 
-        run: |
-            git config --global user.name "LoukikNaik"  # Replace with your name
-            git config --global user.email "loukiknaik@gmail.com"  # Replace with your email
+      - name: Build Project
+        run: npm run build
 
-
-      - name: Deploy to GitHub Pages  
-        run: npm run deploy
-        env:
-          CI: false
-          GITHUB_TOKEN: ${{ secrets.G_TOKEN }}  # Use the GitHub token for authentication
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.G_TOKEN }}
+          publish_dir: ./build
